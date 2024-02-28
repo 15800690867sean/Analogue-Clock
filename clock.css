@@ -1,0 +1,148 @@
+.clock-container {
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+.hour-container, .minute-container, .second-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.hour-container, .minute-container, .second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-container .hour-container .hand {
+    height: 20%;
+    width: 6px;
+    background-color: black;
+    transform: translateY(-50%);
+}
+
+.clock-container .minute-container .hand {
+    height: 30%;
+    width: 4px;
+    background-color: black;
+    transform: translateY(-50%);
+}
+
+.clock-container .second-container .hand {
+    height: 40%;
+    width: 2px;
+    background-color: black;
+    transform: translateY(-50%);
+}
+
+.one {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(30deg);
+}
+
+.two {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(60deg);
+}
+
+.three {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(90deg);
+}
+
+.four {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(120deg);
+}
+
+.five {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(150deg);
+}
+
+.six {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(180deg);
+}
+
+.seven {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(210deg);
+}
+
+.eight {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(240deg);
+}
+
+.nine {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(270deg);
+}
+
+.ten {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(300deg);
+}
+
+.eleven {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(330deg);
+}
+
+.twelve {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
